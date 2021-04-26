@@ -59,7 +59,7 @@ export default class WeatherPage extends Component{
         this.userInputCoords          = this.userInputCoords.bind(this);
         this.updateCoords             = this.updateCoords.bind(this);
         this.createOneCallQueryString = this.createOneCallQueryString.bind(this);
-        this.sendXHRRequest              = this.sendXHRRequest.bind(this);
+        this.sendXHRRequest           = this.sendXHRRequest.bind(this);
         this.doOneCallQuery           = this.doOneCallQuery.bind(this);
         this.locationDropdownOnChange = this.locationDropdownOnChange.bind(this);
     }
